@@ -17,6 +17,7 @@ class OtodomService implements ScrapInterface {
         'floor' => ['htmlElement' => 'div', 'indexBy' => 'aria-label', 'index'=> 'Piętro'],
         'price' => ['htmlElement' => 'strong', 'indexBy' => 'aria-label', 'index'=> 'Cena'],
         'advertiser_type' => ['htmlElement' => 'div', 'indexBy' => 'aria-label', 'index'=> 'Typ ogłoszeniodawcy'],
+        'rooms' => ['htmlElement' => 'div', 'indexBy' => 'aria-label', 'index'=> 'Liczba pokoi']
     ];
 
     public function scrapSingleAuction (string $url): ?array {

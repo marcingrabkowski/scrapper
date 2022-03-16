@@ -19,7 +19,7 @@ if(isset($_GET['url'])) {
                 echo $key. ': ' . $result . '<br />';
             }
         } else {
-            echo 'Nieprawodliwy url!';
+            echo 'Nieprawidlowy url!';
         }
     } catch (Exception $e) {
         echo 'Caught exception: ',  $e->getMessage(), "\n";
