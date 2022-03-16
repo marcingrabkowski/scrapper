@@ -22,7 +22,7 @@ if(isset($_GET['url'])) {
             echo 'Nieprawidlowy url!';
         }
     } catch (Exception $e) {
-        echo 'Caught exception: ',  $e->getMessage(), "\n";
+        echo 'Wystapil blad: ',  $e->getMessage(), "\n";
     }
 }
 
